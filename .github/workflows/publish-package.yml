@@ -2,6 +2,7 @@ name: publish distributions
 on:
   push:
     branches:
+    - check-pin
     - main
     tags:
     - '[0-9]+.[0-9]+'
