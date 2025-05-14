@@ -2,6 +2,7 @@ name: publish distributions
 on:
   push:
     branches:
+    - fix-versioneer
     - main
     tags:
     - '[0-9]+.[0-9]+'
